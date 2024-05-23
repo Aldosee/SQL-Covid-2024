@@ -47,7 +47,7 @@ ORDER BY
 #### The result:
 With the SQL query, load in PowerBI to have a comprehensive output of the data. The data showed that region with the highest number of COVID-19 cases is the National Capital Region (NCR), specifically the NCR, Second District with 703,766 cases. Conversely, the province with the lowest number of cases is Tawi-Tawi in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) with 109 cases.
 
-![Highest](<assets\Highest_Covid_Region_Province.png>) 
+![Highest](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/Highest_Covid_Region_Province.png) 
 ![Lowest](<assets\Lowest_Covid_Region_Province.png>)
 
 ### 2. Highest covided cases reported.
