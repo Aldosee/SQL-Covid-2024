@@ -431,7 +431,7 @@ A high fatality rate indicates a strain:
 - SQL Joins: This project solidified my grasp of SQL joins, particularly INNER JOIN for combining data sets based on matching values. The combination of CTEs and joins proved to be very effective for complex data manipulation.
 - Analysis: I successfully translated data analysis questions into well-structured SQL queries to arrive at the desired results. This exercise reinforced the importance of proper syntax in unlocking valuable insights from data. With the resulting data, I can now delve deeper into the factors influencing regional variations in COVID-19 fatality rates.
 
-### Next Steps:
+### 🚶‍♂️ Next Steps:
 
 To further enhance my analytical capabilities, I plan to explore data visualization techniques to effectively communicate these findings and gain even more comprehensive insights from the data.
 
