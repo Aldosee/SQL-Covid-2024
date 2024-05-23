@@ -2,7 +2,7 @@
 
 Hello! My expertise in ETL (data extraction, transformation, and loading) allowed me to build a comprehensive 2024 COVID-19 dataset from Department of Health. This ensures clean and reliable data for insightful analysis of the pandemic's trends.
 
-#### 📈 You can check the full dashboard: [PowerBI](assets\CovidPh Dashboard (Updated).png)
+#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/CovidPh%20Dashboard%20(Updated).png)
 
 ## 📖 Background
 To enhance my understanding of cpvid's impact and explore career paths in covid response, I'm initiating a project that utilizes advanced data analysis tools to uncover trends within covid-related datasets.

@@ -238,7 +238,7 @@ ORDER BY
     region
 
 
---Case Fatality Rate (Confimed Cases/Deaths = %Rate)
+--Case Fatality Rate (Deaths/Confimed Cases = %Rate)
 WITH combined_data_doh_health AS
 (
     SELECT 
