@@ -1,4 +1,3 @@
-
 --Use a CTE to combine 5 tables into 1 along with UNION syntax to retrieve data without duplicate rows and query for the Gender and Age Group per Region based on COVID cases-- 
 
 WITH combined_data_doh AS
