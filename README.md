@@ -20,9 +20,9 @@ To enhance my understanding of covid's impact and explore career paths in covid 
 ## 🛠️ Tools
 - SQL: For analysis and query database to answer the questions.
  - PostgreSQL: Database management system.
- - Visual Studio Code: Database managemnt and executing SQL queries.
+ - Visual Studio Code: Database management and executing SQL queries.
  - Git & GitHub: SQL scripts and analysis. Project tracking of updates.
- - PowerBI: Visualization and to give a comprehensive insight of the data analysis.
+ - PowerBI: Visualization and to give a comprehensive insight of analysis.
 
 ## 🔎 Analysis
 
@@ -430,6 +430,7 @@ A high fatality rate indicates a strain:
 - Aggregate Functions: I honed my skills in using aggregate functions like COUNT and SUM, along with conditional logic (CASE WHEN) to perform granular analysis of COVID-19 cases and deaths.
 - SQL Joins: This project solidified my grasp of SQL joins, particularly INNER JOIN for combining data sets based on matching values. The combination of CTEs and joins proved to be very effective for complex data manipulation.
 - Analysis: I successfully translated data analysis questions into well-structured SQL queries to arrive at the desired results. This exercise reinforced the importance of proper syntax in unlocking valuable insights from data. With the resulting data, I can now delve deeper into the factors influencing regional variations in COVID-19 fatality rates.
+
 
 ### 🚶‍♂️ Next Steps:
 
