@@ -7,6 +7,9 @@ Hello! My expertise in ETL (data extraction, transformation, and loading) allowe
 ## 📖 Background
 To enhance my understanding of covid's impact and explore career paths in covid response, I'm initiating a project that utilizes advanced data analysis tools to uncover trends within covid-related datasets.
 
+## 📈 Dashboard
+![Covid_dashboard](assets\CovidPh_Dashboard_(Updated).png)
+#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/CovidPh%20Dashboard%20(Updated).png)
 
 
 ## 🤔💭 Questions for this analysis using SQL queries:
@@ -47,8 +50,8 @@ ORDER BY
 #### The result:
 With the SQL query, load in PowerBI to have a comprehensive output of the data. The data showed that region with the highest number of COVID-19 cases is the National Capital Region (NCR), specifically the NCR, Second District with 703,766 cases. Conversely, the province with the lowest number of cases is Tawi-Tawi in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) with 109 cases.
 
-![Highest](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/Highest_Covid_Region_Province.png) 
-![Lowest](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/Lowest_Covid_Region_Province.png)
+![Highest](assets\Highest_Covid_Region_Province.png) 
+![Lowest](assets\Lowest_Covid_Region_Province.png)
 
 ### 2. Highest covided cases reported.
 
@@ -96,7 +99,7 @@ Possible reasons for the surge;
 
 #### 📊Here's a visual presentation of covid 19 trend from 2020-2024:
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/Day_highest_covid_recorded.png) 
+![Highest_covid_spike](assets\Day_highest_covid_recorded.png) 
 
 
 ### 2.1 Highest death reported.
@@ -264,7 +267,7 @@ Based on the vizualization using the population pyramid to identify what age gro
 Conversely, the lowest infection rates seem to be in the following age groups: The age group from 75 to 79 years old appears to have the lowest infection rate among males and females.
 
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/age_group.png) 
+![Highest_covid_spike](assets\age_group.png) 
 
    ### Reasons for High Infection Rates in 25 to 29 Age Group:
 
@@ -288,11 +291,11 @@ The age group 75 to 79 has the fewest infections for both males and females. Thi
 
 Using the daily cases of covid in line graph shown in #2 analysis. 
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/Day_highest_covid_recorded.png)
+![Highest_covid_spike](assets\Day_highest_covid_recorded.png)
 
 And drill up the line graph from daily to yearly we can see that in year 2022 has the highest covid cases recorded followed by 2022 and 2020. The covid started to decline in the year 2022 onwards until in 2024, the lowest record of covid cases in the Philippines.
 
-![yearly_covid_spike](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/assets/yearly_line.png)
+![yearly_covid_spike](assets\yearly_line.png)
 
 ### 5. Region with the highest and lowest fatality rate.
 
@@ -434,8 +437,8 @@ A high fatality rate indicates a strain:
 
 ### 🚶‍♂️ Next Steps:
 
-To further enhance my analytical capabilities, I plan to explore data visualization techniques to effectively communicate these findings and gain even more comprehensive insights from the data.
+ - To further enhance my analytical capabilities, I plan to explore data visualization techniques to effectively communicate these findings and gain even more comprehensive insights from the data.
 
 
-#### 📍 This project has been a fantastic learning experience for me as an aspiring data analyst. It's solidified my foundation in SQL concepts like CTEs, aggregate functions, and joins. I especially appreciate how these tools work together for complex data manipulation. While I'm still at the beginning of my data analysis journey, I'm excited to continue exploring new tools and venturing deeper into the field. Thank you for taking the time to review my work. Your feedback is invaluable as I strive to improve my skills.
+#### 📍 ***This project has been a fantastic learning experience for me as an aspiring data analyst. It's solidified my foundation in SQL concepts like CTEs, aggregate functions, and joins. I especially appreciate how these tools work together for complex data manipulation. While I'm still at the beginning of my data analysis journey, I'm excited to continue exploring new tools and venturing deeper into the field. Thank you for taking the time to review my work. Your feedback is invaluable as I strive to improve my skills.***
 
