@@ -1,23 +1,23 @@
 ## 👋 Introduction
 
-Hello! My expertise in ETL (data extraction, transformation, and loading) allowed me to build a comprehensive 2024 COVID-19 dataset from Department of Health. This ensures clean and reliable data for insightful analysis of the pandemic's trends.
+Hello! My expertise in ETL (data extraction, transformation, and loading) allowed me to build a comprehensive 2024 COVID-19 dataset from the Department of Health. This ensures clean and reliable data for insightful analysis of the pandemic's trends.
 
-#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/CovidPh%20Dashboard%20(Updated).png)
+
 
 ## 📖 Background
-To enhance my understanding of covid's impact and explore career paths in covid response, I'm initiating a project that utilizes advanced data analysis tools to uncover trends within covid-related datasets.
+To enhance my understanding of covid's impact and explore career paths in covid response, I'm initiating a project that utilizes advanced data analysis tools to uncover trends within COVID-related datasets.
 
 ## 📈 Dashboard
-![Covid_dashboard](assets\CovidPh_Dashboard_(Updated).png)
-#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid--2024-/blob/main/CovidPh%20Dashboard%20(Updated).png)
+![Covid_dashboard](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/CovidPh_Dashboard_(Updated).png)
+#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/CovidPh_Dashboard_(Updated).png)
 
 
 ## 🤔💭 Questions for this analysis using SQL queries:
 
-1. What region and province in the Philippines has the highest covid cases?
-2. What was the highest covid cases reported and deaths?
-3. What age group infected the most in male and female?
-4. What year has highest covid cases recorded and lowest?
+1. What region and province has the highest COVID cases in the Philippines?
+2. What were the highest COVID cases reported and deaths?
+3. What age group is infected the most in males and females?
+4. What year has the highest COVID cases recorded and lowest?
 5. What region has the highest and lowest case fatality rate?
 
 ## 🛠️ Tools
@@ -29,7 +29,7 @@ To enhance my understanding of covid's impact and explore career paths in covid 
 
 ## 🔎 Analysis
 
-### 1. Highest covided cases in regions and provinces.
+### 1. Highest COVID cases in regions and provinces.
 
 This SQL query calculates the total number of confirmed COVID-19 cases per region and province in the Philippines,  by aggregating data from a table named doh_covid_data_drop_20240103_05_doh_data_collect_daily_report. The query groups the data by region and province, sums the number of confirmed cases across different categories (asymptomatic, critical, mild, moderate, and severe), and sorts the results by region.
 
@@ -48,12 +48,12 @@ ORDER BY
 
 ```
 #### The result:
-With the SQL query, load in PowerBI to have a comprehensive output of the data. The data showed that region with the highest number of COVID-19 cases is the National Capital Region (NCR), specifically the NCR, Second District with 703,766 cases. Conversely, the province with the lowest number of cases is Tawi-Tawi in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) with 109 cases.
+With the SQL query, load in PowerBI to have a comprehensive output of the data. The data showed that the region with the highest number of COVID-19 cases is the National Capital Region (NCR), specifically the NCR, Second District with 703,766 cases. Conversely, the province with the lowest number of cases is Tawi-Tawi in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) with 109 cases.
 
-![Highest](assets\Highest_Covid_Region_Province.png) 
-![Lowest](assets\Lowest_Covid_Region_Province.png)
+![Highest](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Highest_Covid_Region_Province.png) 
+![Lowest](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Lowest_Covid_Region_Province.png)
 
-### 2. Highest covided cases reported.
+### 2. Highest COVID cases reported.
 
 This SQL query calculates the daily total number of positive COVID-19 individuals  from a table named DOH_COVID_Data_Drop_20240103_07_Testing_Aggregates, excluding rows with null or zero values for daily_output_positive_individuals. It groups the data by report_date and calculates the sum of daily_output_positive_individuals for each date then retrieve the highest number of cases by using the DESC function.
 
@@ -75,7 +75,7 @@ LIMIT
 ```
 ### The result:
 The highest number of positive cases reported was on January 14, 2022, with 41,139 cases.
-Daily cases peaked around that date, followed by a general decrease in different days.
+Daily cases peaked around that date, followed by a general decrease on different days.
 Possible reasons for the surge;
 
 - Increased transmission due to holiday gatherings during the Christmas and New Year season.
@@ -99,7 +99,7 @@ Possible reasons for the surge;
 
 #### 📊Here's a visual presentation of covid 19 trend from 2020-2024:
 
-![Highest_covid_spike](assets\Day_highest_covid_recorded.png) 
+![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Day_highest_covid_recorded.png) 
 
 
 ### 2.1 Highest death reported.
@@ -191,7 +191,7 @@ Possible reasons for higher death tolls in some regions could include:
     | REGION VIII (EASTERN VISAYAS)                                  | DIED          | 876          |
     | BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)        | DIED          | 712          |
 
-### 3. Age group that got infected the most in male and female category.
+### 3. The age group that got infected the most in the male and female categories.
 
 This SQL query combines data from five tables (doh_covid_data_drop_20240103_04_case_info_0 to _4) into a single dataset named "combined_data_doh". It then counts the number of male and female cases for each region and age group. (I also used the UNION function in CTE to combine the four separate Excel-formatted tables from DOH, it's probably the excel can't store much data that's why they batch it.)
 - *CASE WHEN* statement is used to conditionally count cases based on gender. It checks if "Sex" is equal to 'FEMALE' and if true, counts the occurrence. Otherwise, it returns NULL. A separate CASE WHEN statement does the same for males.
@@ -267,9 +267,9 @@ Based on the vizualization using the population pyramid to identify what age gro
 Conversely, the lowest infection rates seem to be in the following age groups: The age group from 75 to 79 years old appears to have the lowest infection rate among males and females.
 
 
-![Highest_covid_spike](assets\age_group.png) 
+![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/age_group.png)
 
-   ### Reasons for High Infection Rates in 25 to 29 Age Group:
+   ### Reasons for High Infection Rates in the 25 to 29 Age Group:
 
 **High Mobility:** Individuals in this age group are typically more mobile, often commuting for work, education, and social activities, increasing their exposure to the virus.
     
@@ -287,21 +287,20 @@ The age group 75 to 79 has the fewest infections for both males and females. Thi
 
 **Protective Measures:** There may be more protective measures in place for this vulnerable age group, such as priority vaccination, dedicated shopping hours, and restricted visitation in care facilities. 
 
-### 4. Year with the highest covid cases recorded and lowest.
+### 4. The year with the highest COVID cases recorded and lowest.
 
-Using the daily cases of covid in line graph shown in #2 analysis. 
+Using the daily cases of COVID in the line graph shown in #2 analysis. 
 
-![Highest_covid_spike](assets\Day_highest_covid_recorded.png)
-
+![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Day_highest_covid_recorded.png)
 And drill up the line graph from daily to yearly we can see that in year 2022 has the highest covid cases recorded followed by 2022 and 2020. The covid started to decline in the year 2022 onwards until in 2024, the lowest record of covid cases in the Philippines.
 
-![yearly_covid_spike](assets\yearly_line.png)
+![yearly_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/yearly_line.png)
 
-### 5. Region with the highest and lowest fatality rate.
+### 5. A region with the highest and lowest fatality rate.
 
 This SQL query utilizes two CTEs (Common Table Expressions) and an inner join to calculate and rank COVID-19 fatality rates by region in the Philippines.
 
-- **Combined_data_doh_health CTE**: This temporary named dataset combines data from five tables (doh_covid_data_drop_20240103_04_case_info_0 to _4), selecting only cases with "DIED" in the "HealthStatus" column and a non-null "RegionRes". This focuses on confirmed deaths.
+- **Combined_data_doh_health CTE**: This temporarily named dataset combines data from five tables (doh_covid_data_drop_20240103_04_case_info_0 to _4), selecting only cases with "DIED" in the "HealthStatus" column and a non-null "RegionRes". This focuses on confirmed deaths.
 
 
 - **Province_covid CTE**: This CTE calculates the total number of confirmed COVID-19 cases (across all severities) for each region by summing the relevant columns ("conf_asym" to "conf_severe") in the "doh_covid_data_drop_20240103_05_doh_data_collect_daily_report" table.
