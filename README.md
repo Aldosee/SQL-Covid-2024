@@ -9,7 +9,7 @@ To enhance my understanding of covid's impact and explore career paths in covid 
 
 ## 📈 Dashboard
 ![Covid_dashboard](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/CovidPh_Dashboard_(Updated).png)
-#### 📈 You can check the full dashboard: [PowerBI_CovidPh](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/CovidPh_Dashboard_(Updated).png)
+#### 📈 You can check the full dashboard: [PowerBI_CovidPh](assets/CovidPh_Dashboard_(Updated).png)
 
 
 ## 🤔💭 Questions for this analysis using SQL queries:
@@ -50,8 +50,8 @@ ORDER BY
 #### The result:
 With the SQL query, load in PowerBI to have a comprehensive output of the data. The data showed that the region with the highest number of COVID-19 cases is the National Capital Region (NCR), specifically the NCR, Second District with 703,766 cases. Conversely, the province with the lowest number of cases is Tawi-Tawi in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) with 109 cases.
 
-![Highest](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Highest_Covid_Region_Province.png) 
-![Lowest](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Lowest_Covid_Region_Province.png)
+![Highest](assets/Highest_Covid_Region_Province.png) 
+![Lowest](assets/Lowest_Covid_Region_Province.png)
 
 ### 2. Highest COVID cases reported.
 
@@ -99,7 +99,7 @@ Possible reasons for the surge;
 
 #### 📊Here's a visual presentation of covid 19 trend from 2020-2024:
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Day_highest_covid_recorded.png) 
+![Highest_covid_spike](assets/Day_highest_covid_recorded.png) 
 
 
 ### 2.1 Highest death reported.
@@ -267,7 +267,7 @@ Based on the vizualization using the population pyramid to identify what age gro
 Conversely, the lowest infection rates seem to be in the following age groups: The age group from 75 to 79 years old appears to have the lowest infection rate among males and females.
 
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/age_group.png)
+![Highest_covid_spike](assets/age_group.png)
 
    ### Reasons for High Infection Rates in the 25 to 29 Age Group:
 
@@ -291,10 +291,10 @@ The age group 75 to 79 has the fewest infections for both males and females. Thi
 
 Using the daily cases of COVID in the line graph shown in #2 analysis. 
 
-![Highest_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/Day_highest_covid_recorded.png)
+![Highest_covid_spike](assets/Day_highest_covid_recorded.png)
 And drill up the line graph from daily to yearly we can see that in year 2022 has the highest covid cases recorded followed by 2022 and 2020. The covid started to decline in the year 2022 onwards until in 2024, the lowest record of covid cases in the Philippines.
 
-![yearly_covid_spike](https://github.com/Aldosee/SQL-Covid-2024/blob/main/assets/yearly_line.png)
+![yearly_covid_spike](assets/yearly_line.png)
 
 ### 5. A region with the highest and lowest fatality rate.
 
